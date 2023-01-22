@@ -4,7 +4,7 @@
 
 Python 3.8.5+, pipenv
 
-## Instalation
+## Install and Run
 
 ```
 pipenv install
@@ -15,4 +15,13 @@ Application will be available at:
 
 	http://localhost:5000
 
+## Unit tests
+
+Run:
+
+```
+pipenv run python -m unittest tests/test_example.py
+```
+
+## App Configuration
 All configuration is in: `configuration.py`
