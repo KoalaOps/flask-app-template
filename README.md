@@ -2,7 +2,15 @@
 
 ## Requirements
 
-Python 3.8.5+, pipenv
+Python 3.10.0
+
+Project is ready to work with either "pipenv" (Pipfile) or "pip" (requirements.txt) - choose whatever suites you best. 
+
+Please note, Github Actions flows rely on requirements.txt so in case you go with "pipenv" please make sure to run the command below after every `Pipfile` change.
+
+```
+pipenv run pip freeze > requirements.txt
+```
 
 ## Install and Run
 
