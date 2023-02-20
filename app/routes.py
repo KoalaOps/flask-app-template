@@ -18,6 +18,6 @@ def koala():
 		description = parsed_toml["Description"]
 	
 	with open("VERSION", "rb") as f:
-		version = f.read().decode("utf-8")
+		version = f.readline().decode("utf-8")
 
 	return "Hello Koala! (%s v%s) - %s" % (service_name, version, description)
